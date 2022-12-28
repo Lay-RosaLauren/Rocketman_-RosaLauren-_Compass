@@ -837,13 +837,3 @@ console.log(result.join('-'));
 // }
 
 // Introdução - Manipulação do DOM
-
-    
-    
-
-
-
-
-
-
-
