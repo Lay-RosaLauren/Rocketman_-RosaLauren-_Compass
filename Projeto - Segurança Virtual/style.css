@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap');
+
+:root {
+    --fontPrimaria: 'Garamond', cursiva;
+    --fontSecundaria: 'Garamond', cursiva;
+}
+
+* {
+    padding: 50;
+    margin: 50;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    justify-content: center;
+    color: #f2c2dc;
+}
+body {
+    background-image: url(dark-purple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+header {
+    margin: auto;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    justify-content: center;
+    font-family: var(--fontPrimaria);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontPrimaria);
+    letter-spacing: 2px;
+}
+h2 {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+input {
+    padding: 6px 30px;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #282922;
+    color: #f2c2dc;
+    outline: none;
+    box-shadow: 0 0 6px #0c0c0c;
+}
+input:active,
+input:focus {
+    border: 2px solid #f2c2dc;
+}
+input::placeholder {
+    color: #f2c2dc;
+    
+}
+p {
+    font-size:25px;
+    color: #f2c2dc;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+button {
+    padding: 6px 30px;
+    border: 1px solid #f2c2dc;
+    background-color: transparent;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    border: 1px solid transparent;
+    background: #f2c2dc;
+    color: #282922;
+
+}
+
+
+@media (max-width:580px) {
+    header {
+        margin-top: 5rem;
+    }
+    .container {
+        padding: 0 3rem 0 3rem;
+        text-align: center;
+    }
+    h2 {
+        margin:18px 0;
+        font-size: 1.3rem;
+    }
+   .convidado {
+       display: flex;
+       flex-direction: column;
+   }
+    button {
+        padding: 8px 20px;
+        font-size: 1rem;
+        margin: 20px 0 0 0;
+    }
+    input {
+        padding: 6px 20px;
+        margin: 0;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:450px) {
+   header h1 {
+       font-size: 2.5rem;
+    }
+    .container {
+        text-align: center;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+   h2 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
