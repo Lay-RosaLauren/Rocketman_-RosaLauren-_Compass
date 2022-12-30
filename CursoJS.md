@@ -1,6 +1,6 @@
  # CursoJS
  
- - O Javascript hoje está entre as top 10 linguagens mais usadas no mundo.
+ # O Javascript hoje está entre as top 10 linguagens mais usadas no mundo.
 
 ---------------------------------------------------------------------------------------------------
 # Opção Ferramenta 1 - VS Code
